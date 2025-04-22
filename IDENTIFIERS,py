@@ -1,0 +1,52 @@
+# ---------------------------
+# Identifiers in Python
+# ---------------------------
+
+# Identifiers are the names used to identify variables, functions, classes, modules, and objects.
+
+# Rules for writing identifiers:
+
+# 1. An identifier can be a combination of letters (A-Z or a-z), digits (0-9), and underscores (_).
+#    Example: my_var1, _name, value2
+
+# 2. An identifier cannot start with a digit.
+#    Invalid: 1name, 2_value
+
+# 3. Identifiers are case-sensitive.
+#    Example: name and Name are two different identifiers.
+
+# 4. Reserved words (keywords) cannot be used as identifiers.
+#    Example: def, class, return, etc., are keywords and cannot be used as variable names.
+
+# 5. There is no limit on the length of the identifier.
+
+# Naming conventions (not strict rules, but good practices):
+
+# - Variable names should be lowercase, with words separated by underscores.
+#   Example: total_sum, max_value
+
+# - Class names should follow CamelCase.
+#   Example: StudentData, MyClass
+
+# - Constants (by convention) are written in all uppercase.
+#   Example: PI = 3.14, MAX_LIMIT = 100
+
+# - Private identifiers (by convention) start with a single underscore.
+#   Example: _hidden_var
+
+# - Strongly private identifiers start with two underscores and may be name-mangled.
+#   Example: __secret_value
+
+# - Special method names (also called magic methods) start and end with double underscores.
+#   Example: __init__, __str__
+
+# Python allows Unicode characters in identifiers (Python 3+), but it's generally advised to stick to ASCII.
+
+# Example of valid identifiers:
+my_var = 10
+_name = "Alice"
+value123 = 99
+
+# Example of invalid identifiers (will cause SyntaxError if used):
+# 123value = 45   # Invalid: starts with a digit
+# def = 10        # Invalid: def is a keyword
