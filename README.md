@@ -19,6 +19,11 @@ This is a personal space where I regularly post and update **basic Python concep
 
 Whether you're a complete beginner or brushing up on the basics, this repo is intended to provide clear, concise Python examples to help build a strong foundation.
 
+## 📜 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+
 ## 🌟 Let's Connect
 I'm passionate about collaborating on innovative projects and sharing knowledge about *coding, design, robotics, and AI*. Let's build something amazing together! 
 
